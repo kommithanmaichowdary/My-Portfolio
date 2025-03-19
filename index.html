@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTC Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Sections -->
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="hc">
+                <h3>Hello, It's Me</h3>
+                <h1>Thanmai Chowdary Kommi</h1>
+                <!-- <h3>And I'm a <span class="text"></span></h3> -->
+                <p>I am a passionate Computer Science Undergraduate. With experience in Full-Stack Java development, I create intuitive solutions using HTML, CSS, JavaScript.</p>
+                <div class="hi">
+                    <a href="https://www.instagram.com/thanmaichowdarykommi/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="mailto:kommithanmai332@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+                    <a href="http://www.linkedin.com/in/thanmai-chowdary-kommi/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/kommithanmaichowdary" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+                <a href="#about" class="btn-box">More About Me</a>
+                <a href="/ThanmaiChowdary.pdf" class="btn-box" id="resume" download>Resume</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="abi">
+            <img src="C:\Users\kommi\OneDrive\Desktop\subbu1.jpg" alt="Kommi Thanmai Chowdary">
+        </div>
+        <div class="abt-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Aspiring Software Developer!</h4>
+            <p>
+                I'm a Java Developer and CSE Undergraduate passionate about building scalable, user-centric solutions. Proficient in Java, SQL, HTML, CSS, JavaScript, Spring, SpringBoot and experienced in Java Full Stack Development.
+                
+                <br><br>
+                Seeking opportunities to apply my expertise in software development, problem-solving, and database management to drive innovation in a forward-thinking organization. Let's build the future!
+            </p>
+            <a href="#skills" class="btn-box">More About Me</a>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">My <span>Services</span></h2>
+            <div class="services-list">
+                <div class="service-item">
+                    <i class='bx bx-link service-icon'></i>
+                    <h3>API-Based Web Applications</h3>
+                    <p>Development of API-based web applications using RESTful services for seamless data exchange. Designing of scalable and modular microservices architecture to improve system performance and maintainability.</p>
+                    <a href="https://github.com/kommithanmaichowdary" target="_blank" class="learn-more">Learn more</a>
+                </div>
+                <div class="service-item">
+                    <i class='bx bx-devices service-icon'></i>
+                    <h3>Android App Development</h3>
+                    <p>Design and development of high-performance Android apps using Java, ensuring smooth UI/UX, API integrations, and scalability. From custom app development to Play Store deployment, providing end-to-end solutions with a focus on performance, security, and user engagement.</p>
+                    <a href="https://github.com/kommithanmaichowdary" target="_blank" class="learn-more">Learn more</a>
+                </div>
+                <div class="service-item">
+                    <i class='bx bx-code bx-rotate-180 service-icon'></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Creation of intuitive, visually appealing, and user-friendly designs that enhance user experience. Focus on usability, accessibility, and aesthetics to ensure seamless interactions across web and mobile apps.</p>
+                    <a href="https://github.com/kommithanmaichowdary" target="_blank" class="learn-more">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="container my-5">
+        <h2 class="text-center mb-4">My <span style="color: #0ef;">Skills</span></h2>
+        <div class="row">
+            <!-- Technical Skills -->
+            <div class="col-md-6 mb-4">
+                <h3 class="text-center">Technical Skills</h3>
+                <div class="skill mb-3" data-percentage="90">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <span><i class='bx bxl-java' style='color:#b35b20'></i> Java</span>
+                        <span class="percentage">90%</span>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 0%; background-color: #0ef;"></div>
+                    </div>
+                </div>
+                <!-- Repeat similar blocks for other technical skills -->
+                <div class="skill mb-3" data-percentage="85">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <span><i class='bx bxs-data' style='color:#b35b20'></i>SQL</span>
+                        <span class="percentage">85%</span>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 0%; background-color: #0ef;"></div>
+                    </div>
+                </div>
+                <!-- Repeat similar blocks for other technical skills -->
+                <div class="skill mb-3" data-percentage="80">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <span><i class='bx bxl-html5' style='color:#b35b20'></i>HTML & CSS</span>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 0%; background-color: #0ef;"></div>
+                    </div>
+                </div>
+                <!-- Repeat similar blocks for other technical skills -->
+                <div class="skill mb-3" data-percentage="80">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <span><i class='bx bxl-javascript' style='color:#b35b20'></i>JavaScript</span>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 0%; background-color: #0ef;"></div>
+                    </div>
+                </div>
+                <!-- Repeat similar blocks for other technical skills -->
+                <div class="skill mb-3" data-percentage="80">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <span><i class='bx bxl-python' style='color:#b35b20'></i>Python</span>
+                        <span class="percentage">80%</span>
+                    </div>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 0%; background-color: #0ef;"></div>
+                    </div>
+                </div>
+                <!-- Repeat similar blocks for other technical skills -->
+            </div>
+    
+            <div class="col-md-6 mb-4">
+                <h3 class="text-center">Professional Skills</h3>
+                <div class="d-flex justify-content-around flex-wrap">
+                    <div class="radial-skill mb-4">
+                        <div class="radial-progress" data-percentage="90">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                       a 15.9155 15.9155 0 0 1 0 31.831
+                                       a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <path class="circle"
+                                    d="M18 2.0845
+                                       a 15.9155 15.9155 0 0 1 0 31.831
+                                       a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            </svg>
+                            <div class="radial-text">
+                                <!-- <i class='bx bx-brain'></i> -->
+                                <span>Creativity</span>
+                                <span class="percentage">90%</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Repeat similar blocks for other skills -->
+                    <div class="radial-skill mb-4">
+                        <div class="radial-progress" data-percentage="90">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                       a 15.9155 15.9155 0 0 1 0 31.831
+                                       a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <path class="circle"
+                                    d="M18 2.0845
+                                       a 15.9155 15.9155 0 0 1 0 31.831
+                                       a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            </svg>
+                            <div class="radial-text">
+                                <!-- <i class='bx bx-brain'></i> -->
+                                <span>Communication</span>
+                                <span class="percentage">90%</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Repeat similar blocks for other skills -->
+                    <div class="radial-skill mb-4">
+                        <div class="radial-progress" data-percentage="75">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                       a 15.9155 15.9155 0 0 1 0 31.831
+                                       a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <path class="circle"
+                                    d="M18 2.0845
+                                       a 15.9155 15.9155 0 0 1 0 31.831
+                                       a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            </svg>
+                            <div class="radial-text">
+                                <!-- <i class='bx bx-brain'></i> -->
+                                <span>Problem-Solving</span>
+                                <span class="percentage">75%</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Repeat similar blocks for other skills -->
+                    <div class="radial-skill mb-4">
+                        <div class="radial-progress" data-percentage="95">
+                            <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg"
+                                    d="M18 2.0845
+                                       a 15.9155 15.9155 0 0 1 0 31.831
+                                       a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <path class="circle"
+                                    d="M18 2.0845
+                                       a 15.9155 15.9155 0 0 1 0 31.831
+                                       a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            </svg>
+                            <div class="radial-text">
+                                <!-- <i class='bx bx-brain'></i> -->
+                                <span>Team Work-Leadership</span>
+                                <span class="percentage">95%</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Repeat similar blocks for other skills -->
+                </div>
+            </div>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Projects Content -->
+    <section id="portfolio">
+        <div class="main-text">
+            <h2>Latest <span>Projects</span></h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-item" onclick="window.open('https://github.com/kommithanmaichowdary/BankStatement-Aggregator', '_blank');">
+                <img src="C:\Users\kommi\OneDrive\Desktop\aggregatorimage.jpg" alt="Bank Aggregator Application">
+                <div class="layer">
+                    <h5>Bank Aggregator Application</h5>
+                    <p> Java, SpringBoot, MySQL, AWS S3 <br>
+                        ● Developed a Bank Aggregator app to integrate multiple banking services & generate a 
+                        summarized banking statements. <br>
+                        ● Implemented RESTful APIs for seamless communication between client and server. <br>
+                        ● Utilised SQL for efficient data storage and management. <br>
+                        ● Integrated AWS S3 for uploading and downloading bank statements.<br>
+                        CLICK TO NAVIGATE                  </p>
+                </div>
+            
+            </div>
+            <!-- Repeat similar blocks for other projects -->
+            <div class="portfolio-item" onclick="window.open('https://github.com/kommithanmaichowdary/WikipediaSearchApplication', '_blank');">
+                <img src="C:\Users\kommi\OneDrive\Desktop\wikipedia_Rx6fLAlIk.webp" alt="Wikipedia Search Application">
+                <div class="layer">
+                    <h5>Wikipedia Search Application</h5>
+                    <p>HTML, CSS, JavaScript<br>
+                        ● Developed a web application where users can access related pages through searching. <br>
+                        ● Implemented using JSON methods , and achieved response using Bootstrap and Cascading Style Sheets 
+                        models. GUI is user friendly.<br>
+                        CLICK TO NAVIGATE
+                    </p>
+                </div>
+            </div>
+            <!-- Repeat similar blocks for other projects -->
+            <div class="portfolio-item" onclick="window.open('https://github.com/kommithanmaichowdary/TodosApplication', '_blank');">
+                <img src="C:\Users\kommi\OneDrive\Desktop\todo.jpg" alt="Todos Application">
+                <div class="layer">
+                    <h5>Todos Application</h5>
+                    <p>HTML, CSS, JavaScript<br>
+                        ● Developed a Todo application where users can save,delete and mark their todo list. <br>
+                        ● Implemented using JSON methods, and used local storage mechanism to store users todo list.<br>
+                        CLICK TO NAVIGATE
+                    </p>
+                    
+                </div>
+            </div>
+            <!-- Repeat similar blocks for other projects -->
+             <!-- Repeat similar blocks for other projects -->
+            <!-- <div class="portfolio-item" onclick="window.open('https://github.com/kommithanmaichowdary/RestaurantWebsite', '_blank');">
+                <img src="C:\Users\kommi\OneDrive\Desktop\Restaurant_Websites.jpg" alt="Restaurant Website">
+                <div class="layer">
+                    <h5>Restaurant Website</h5>
+                    <p>HTML, CSS, Bootstrap<br>
+                        ● Developed a responsive website with HTML,CSS,Bootstrap. <br>
+                        ● This website is compatible to all devices.<br>
+                        CLICK TO NAVIGATE
+                    </p>
+                    
+                </div>
+            </div> -->
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Have a project idea, job opportunity, or just want to connect? Feel free to reach out! I’m always open to discussing new opportunities in software development and technology.</p>
+            <ul class="contact-list">
+                <li><i class='bx bxs-send'></i> kommithanmai332@gmail.com</li>
+                <li><i class='bx bxs-phone'></i> 6304930942</li>
+            </ul>
+            <div class="hi">
+                <a href="https://www.instagram.com/thanmaichowdarykommi/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto:kommithanmai332@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+                <a href="http://www.linkedin.com/in/thanmai-chowdary-kommi/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/kommithanmaichowdary/" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ac92895b-e327-4677-a972-f34762860aee">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject">
+                <textarea name="message" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="Submit" class="send btn-box1" id="resume">
+            </form>
+        </div>
+    </section>
+    
+<!-- Other content of your webpage -->
+
+<!-- Other content of your webpage -->
+
+<!-- Footer Text -->
+<section>
+    <div class="last-text">
+        <p>&copy Thanmai Chowdary Kommi</p>
+    </div>
+</section>
+
+<!-- Back to Top Button -->
+<a href="#" class="top" id="backToTopBtn" aria-label="Back to Top">
+    <i class='bx bx-up-arrow-alt'></i>
+</a>
+
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    // Animate horizontal progress bars
+    const skills = document.querySelectorAll('.skill');
+    skills.forEach(skill => {
+        const percentage = skill.getAttribute('data-percentage');
+        const progressBar = skill.querySelector('.progress-bar');
+        progressBar.style.width = `${percentage}%`;
+    });
+
+    // Animate radial progress indicators
+    const radialProgressElements = document.querySelectorAll('.radial-progress');
+    radialProgressElements.forEach(el => {
+        const percentage = el.getAttribute('data-percentage');
+        const circle = el.querySelector('.circle');
+        const radius = 15.9155; // Radius of the circle in the SVG path
+        const circumference = 2 * Math.PI * radius;
+        const offset = circumference - (percentage / 100) * circumference;
+        circle.style.strokeDasharray = `${circumference} ${circumference}`;
+        circle.style.strokeDashoffset = offset;
+    });
+});
+
+    </script>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
